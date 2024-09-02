@@ -246,3 +246,10 @@ body {
 .About-me {
     margin-top: 20px; /* Adjust the value as needed */
 }
+
+section {
+    background-color: #FFF;
+    height: auto;
+    width: auto;
+    padding-top: 20%;
+}
