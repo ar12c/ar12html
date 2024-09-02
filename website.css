@@ -33,6 +33,10 @@ body {
 
 .ending-font {
     color: #4b4d50;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*scrolling*/
@@ -246,4 +250,38 @@ section {
     height: auto;
     width: auto;
     padding-top: 20px;
+}
+
+/* Channel Name */
+
+.More-of {
+    padding: 30px 20px;
+}
+
+.Youtube {
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.Youtube-whole {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.channelname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+
+.Return {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
