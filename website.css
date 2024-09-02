@@ -187,12 +187,14 @@ body {
 
 /* about */
 
+
 .retangle {
     width: 60%;
     height: auto;
     background-color: #1E1F20;
     margin: 20%;
     border-radius: 50px;
+    padding: 0;
 }
 
 .About-me {
@@ -229,3 +231,7 @@ body {
 
 
 /* end of about */
+
+.Pre-aboutme {
+    height: 0;
+}
