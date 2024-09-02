@@ -42,7 +42,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 200ms ease-out 100ms;
-    transition: border-radius 300ms ease-in-out;
+    transition: border-radius 500ms linear;
     border-radius: 60px;
     transition: all 0.3s ease-in-out;
     position: relative;
@@ -187,16 +187,30 @@ body {
     align-items: flex-start;
 }
 
+.Design, .About-me {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start;
+}
+
 .inside-text {
     padding: 20px;
     text-align: left;
 }
 
-.interestpictures {
+.interestpicturescat {
     width: 50%;
     height: 50%;
     order: 2; 
     border-radius: 50px;
 }
+
+.interestpicturesmateiral {
+    width: auto;
+    height: 100%;
+    order: 2; 
+    border-radius: 50px;
+}
+
 
 /* end of about */
