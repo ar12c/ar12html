@@ -35,34 +35,58 @@ body {
     background-color: rgb(255, 109, 109); 
     border: none;
     color: white;
-    padding: 15px 15px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 200ms ease-out 100ms;
-    border-radius: 20px;
-    position: absolute;
-    margin-top: 50px;
+    transition: border-radius 300ms ease-in-out;
+    border-radius: 60px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
 }
 
 .Learn-more:hover {
-    background-color: rgb(255, 79, 79);
-    border-radius: 10px;
-}
-
-.Learn-more:active {
-    background-color: rgb(145, 28, 28);
+    background-color: rgb(255, 165, 165);
+    color:#ffffff;
+    border-radius: 12px;
     transition-delay: 0ms;
-    border-radius: 10px;
 }
 
-button::not(class="navigation-button") {
-    position: absolute;
-    top: -20px;
+.Return {
+    font-family: 'Poppins';
+    background-color: rgb(255, 109, 109); 
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 200ms ease-out 100ms;
+    transition: border-radius 300ms ease-in-out;
+    border-radius: 60px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
 }
 
+.Return:hover {
+    background-color: rgb(255, 165, 165);
+    color:#ffffff;
+    border-radius: 12px;
+    transition-delay: 0ms;
+}
+
+.Return {
+    justify-content: center;
+    float: center;
+}
 /*end of button*/
 
 /*navigation bar*/
@@ -117,7 +141,7 @@ button::not(class="navigation-button") {
     float: right;
     align-items: center;
     position:relative;
-    margin-top: -100px;
+    margin-top: -350px;
     margin-left: 400px;
 }
 
@@ -134,7 +158,7 @@ button::not(class="navigation-button") {
 }
 
 .Hello {
-
+    font-size: 80;
 }
 
 
@@ -150,9 +174,29 @@ button::not(class="navigation-button") {
 /* about */
 
 .retangle {
-    width: 100%;
-    height: 100%;
-    background-color: #0080ff;
+    width: 60%;
+    height: auto;
+    background-color: #1E1F20;
+    margin: 20%;
+    border-radius: 50px;
+}
+
+.About-me {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start;
+}
+
+.inside-text {
+    padding: 20px;
+    text-align: left;
+}
+
+.interestpictures {
+    width: 50%;
+    height: 50%;
+    order: 2; 
+    border-radius: 50px;
 }
 
 /* end of about */
