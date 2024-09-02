@@ -226,12 +226,21 @@ body {
     height: auto;
     order: 2; 
     border-radius: 50px;
-    display: flex;
 }
 
 
 /* end of about */
 
+
 .Pre-aboutme {
-    height: 0;
+    margin-top: 20%;
+}
+
+
+.Learn-more {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+.About-me {
+    margin-top: 20px; /* Adjust the value as needed */
 }
