@@ -203,7 +203,7 @@ body {
     align-items: flex-start;
 }
 
-.Design, .About-me {
+.Design {
     display: flex;
     flex-direction: row; 
     align-items: flex-start;
@@ -226,6 +226,8 @@ body {
     height: auto;
     order: 2; 
     border-radius: 50px;
+    display:flex;
+    align-items: flex-end;
 }
 
 
@@ -243,4 +245,10 @@ body {
 
 .About-me {
     margin-top: 20px; /* Adjust the value as needed */
+}
+
+section {
+    align-items: center;
+    position: absolute;
+    top: -100px;
 }
