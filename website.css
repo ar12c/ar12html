@@ -39,7 +39,34 @@ body {
     align-items: center;
 }
 
+
+
+
 /*scrolling*/
+
+.ripple {
+    background: white;
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+    opacity: 0.4;
+    position: absolute;
+    transition: all 1s ease-out;
+    pointer-events: none;
+    will-change: transform;
+  }
+  
+  .ripple.run {
+    opacity: 0;
+    transform: scale(200);
+  }
+  
+  [ripple] {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
 
 /* buttons */
 
@@ -64,7 +91,7 @@ body {
 }
 
 .Learn-more:hover {
-    background-color: rgb(255, 165, 165);
+    background-color: rgb(255, 122, 122);
     color:#ffffff;
     border-radius: 12px;
     transition-delay: 0ms;
@@ -125,12 +152,13 @@ body {
 
 .navigation-button {
     border: none;
-    background-color: #1E1F20;
+    background-color: transparent;
     color: #a8a8a8;
     font-family: 'Poppins';
     cursor: pointer;
     display: flex;
     float: right;
+    z-index: 1000000;
 }
 
 .navigation-button:hover {
@@ -303,7 +331,7 @@ section {
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     background-size: 500% auto;
-    animation: gemini-knockoff 1s linear alternate;
+    animation: gemini-knockoff 1.5s linear alternate;
 }
 
 @keyframes gemini-knockoff {
@@ -313,4 +341,16 @@ section {
     100% {
         background-position: 100% 50%;
     }
+}
+
+.navigation  {
+    position: fixed;
+    z-index: 10;
+    filter: blur();
+}
+
+.navigation-button {
+    position: relative;
+    z-index: 9999;
+    display:flex;
 }
