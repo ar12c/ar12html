@@ -310,6 +310,7 @@ section {
         #131314 20%,
         #d96570 33%, 
         #9b72cb 38%, 
+        #9b72cb 42%,
         #4285f4 44%, 
         #9b72cb 50%, 
         #d96570 56%, 
@@ -320,7 +321,7 @@ section {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
-    animation: gradient-animation 1.5s linear;
+    animation: gradient-animation 1s linear;
     animation-fill-mode: forwards;
     animation-delay: 500ms;
 }
