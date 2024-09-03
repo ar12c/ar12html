@@ -253,8 +253,8 @@ body {
     height: auto;
     order: 2; 
     border-radius: 50px;
-    display:flex;
-    align-items: flex-end;
+    display: flex;
+    align-items: right;
 }
 
 
