@@ -274,7 +274,9 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    order: 2;
     padding-top: 10%;
+    align-items: flex-end;
 }
 
 
